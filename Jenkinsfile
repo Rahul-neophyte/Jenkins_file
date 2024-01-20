@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Build the application"
+                echo "Building Complete"
             }
         }
         stage('Test') {
